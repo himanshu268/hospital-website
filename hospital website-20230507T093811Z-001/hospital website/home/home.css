@@ -1,0 +1,313 @@
+.topnav 
+{
+    overflow: hidden;
+    background-color: none;
+    align-items: center;
+}
+.topnav a 
+{
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 25px;
+}
+
+.topnav a:hover {
+
+    color: rgb(163, 143, 29);
+	text-decoration: underline;
+}
+.topnav a.active
+ {
+    background-color: #4CAF50;
+    color: white;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 20px;
+}
+.people
+{
+	color: green;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 12px;
+}
+.active
+{
+	background-color: rgb(160, 182, 150);
+	margin-top: 21px;
+	font-size: 18px;
+  border-top: none;
+	border-left: none; 
+    border-right: grey solid 2px;
+    border-bottom: gray solid 3px;
+	padding:5px;
+	margin-left: 100px;
+}
+.active:hover
+{
+	background-color: rgb(68, 66, 66);
+    color: rgb(163, 143, 29);
+}
+.btn
+{
+	color: black;
+	font-size: 15px; 
+	margin-top: 3px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 30px;
+	width: 130px;
+}
+.btn:hover
+{
+	background-color: #56baed;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s6
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .container
+  {
+	  padding-bottom: 50px;
+  }
+.Box
+{
+	background-color: white;
+	padding: 20px 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+	text-align: center;	
+	border-top: none;
+	border-left: none; 
+    border-right: grey solid 2px;
+    border-bottom: gray solid 3px;
+	border-radius: 10%;
+    background-image: url(D5.jpg);
+    height: 200px;
+    width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.features
+{
+	text-align: center;
+	font-style: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+i
+{
+	background-color: rgb(8, 200, 145);
+    border-radius: 100%;
+    padding: 12px;
+    color: white;
+  
+}
+.head
+{
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+:root
+{
+    --primary: rgba(2, 4, 5, 0.20);
+    --secondary: rgba(2, 4, 5, 0.20);
+}
+#images
+{
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                url(D6.jpg);
+     background-color: white;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+.team
+{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+img
+{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin-right: 60%;
+	box-shadow: 0px 0 30px black;
+}
+.team-txt
+{
+    text-align: center;
+    padding-top: 15px;
+}
+.team-img
+{
+padding-left: 50px;
+text-align: center;
+}
+.container-fluid{
+	border-radius: 5px;
+	padding: 40px;
+}
+.contact
+{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+.bg{
+background-color:black;
+opacity: 0.8;
+padding-top: 30px;
+}
+.icon i
+{
+font-size: 20px;
+background-color:rgb(155, 148, 148);
+margin: 10px;
+}
+i:hover
+{
+	background-color: rgb(208, 231, 126);
+	color: black;
+}
+.content1{
+justify-content: left;
+align-items: center;
+ }
+input[type=text] 
+{
+padding: 8px;
+border: 1px solid #ccc;
+resize: vertical;
+color: black;
+}
+.text1{
+color: rgb(233, 231, 227);
+font-size: 17px;
+font-family: 'Times New Roman', Times, serif;
+text-align: left;
+margin-left: 30px;
+ }
+.text2{
+color: white;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position:fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+  

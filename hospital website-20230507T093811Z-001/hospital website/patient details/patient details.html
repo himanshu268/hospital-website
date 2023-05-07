@@ -1,0 +1,114 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>patient details</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="patient details.css">
+    <script src="https://kit.fontawesome.com/c352fab2c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="../home after login/home after login.css">
+</head>
+
+<body style="background-color: #56baed ;>
+
+    <section>
+                <div class="col-sm-12">
+            <div class="nav">
+                <div class="col-sm-2">
+                    <img class="image" style="height: 80px; width: 80px;" src="../home/people care.jpg">
+                </div>
+                <div class="col-sm-6">
+                    <div class="topnav">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="../patient%20details/patient%20details.html">Insert Patient Details</a>
+                            <a href="../display/displaypatient.php">Disply patient ditails</a>
+                        </div>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidenav").style.width = "250px";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("mySidenav").style.width = "0";
+                            }
+
+                        </script>
+                        <a style="font-size:30px;cursor:pointer; padding-top: 20px; text-decoration: none;"
+                            onclick="openNav()">&#9776;</a>
+                        <a href="../home after login/home after login.html">Home</a>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <a href="../includes/logout.inc.php"> <button class="btn">Logout</button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6">
+
+                        <div class="booking">
+                            <div class="heading">
+                                <p>Insert Patient Details </p>
+                            </div>
+                        </div>
+                <div class="form">
+                    <form action="../includes/insert.php" method="post">
+
+
+
+                        <label for="ID">ID:</label>
+                        <input type="text" name="ID" class="form-control" id="ID">
+
+                        <label for="DOB">DOB:</label>
+                        <input type="DATE" name="DOB" class="form-control" id="DOB">
+
+                        <label for="NAME">NAME:</label>
+                        <input type="text" name="NAME" class="form-control" id="NAME">
+
+                        <label for="CONTACT">CONTACT:</label>
+                        <input type="text" name="CONTACT" class="form-control" id="CONTACT">
+
+                        <label for="EMAIL_ID">EMAIL_ID:</label>
+                        <input type="text" name="EMAIL_ID" class="form-control" id="EMAIL_ID">
+
+                        <label for="PROBLEM">PROBLEM:</label>
+                        <input type="text" name="PROBLEM" class="form-control" id="PROBLEM">
+
+                        <label for="Gender">Gender:</label><br>
+                        Male<input type="radio" name="Gender" id="Male" value="M">
+                        Female<input type="radio" name="Gender" id="Female" value="f">
+                        others<input type="radio" name="Gender" id="others" value="o"><br>
+
+                        <label for="DOB">Discharge Date:</label>
+                        <input type="DATE" name="Discharge" class="form-control" id="Discharge">
+
+                        <label for="DOB">Admitting Date:</label>
+                        <input type="DATE" name="Admitting" class="form-control" id="Admitting">
+
+                        <div class="submit_btn">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

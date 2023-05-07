@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Feedback.css">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <div class="fadeIn first"></div>
+            <form action="../includes/feedback.php" method="post">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="login" class="fadeIn second" name="name" placeholder="Enter your name">
+                <label for="fname">Email:</label><br>
+                <input type="text" id="Email" class="fadeIn third" name="email" placeholder="Enter your Email">
+                <label for="fname">Contact:</label><br>
+                <input type="text" id="Contact" class="fadeIn second" name="contact" placeholder="Enter your Contact number">
+                <label for="fname">Message:</label><br>
+                <textarea id="subject" class="fadeIn second" name="message" placeholder="Write something.." style="height: 150px; width: 90%;" ></textarea><br>
+                
+                <input type="submit" class="fadeIn fourth" value="Submit" name="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

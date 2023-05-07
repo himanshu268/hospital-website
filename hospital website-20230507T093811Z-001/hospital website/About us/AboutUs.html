@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ABOUT US</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/c352fab2c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="AboutUs1.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="col-sm-12">
+            <div class="nav">
+                <div class="col-sm-2">
+                    <img class="image" style="height: 80px; width: 80px; border-radius: 50%;" src="../home/people care.jpg">
+                </div>
+                <div class="col-sm-6">
+                    <div class="topnav">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a
+                                href="../Feedback/Feedback.html">Feedback</a>
+                            <a href="../services/services.html">Services</a>
+                            <a href="#">Contact</a>
+                        </div>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidenav").style.width = "180px";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("mySidenav").style.width = "0";
+                            }
+
+                        </script>
+                        <a style="font-size:30px;cursor:pointer; padding-top: 20px; text-decoration: none;"
+                            onclick="openNav()">&#9776;</a>
+                        <a href="../home/home.html">Home</a>
+                        <a href="../About us/AboutUs.html">About
+                            Us</a>
+                        <a href="#Team">Team</a>
+                        <a href="../Gallary/Gallary.html">Gallery</a>
+                        <a href="#Contact Us">Contact Us</a>
+
+                    </div>
+                </div>
+                <div class="">
+                    <button class="active" class="open-button" onclick="openForm()">Book an Appointment</button>
+                    <div class="form-popup" id="myForm">
+                        <form action="/action_page.php" class="form-container">
+                            <h1>Book appointment</h1>
+                            <label for="email"><b>Full Name</b></label>
+                            <input type="text" placeholder="Enter Full Name" name="email" required>
+
+                            <label for="email"><b>Contact Number</b></label>
+                            <input type="text" placeholder="Enter Contact Number" name="email" required>
+
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" required>
+
+                            <label for="psw"><b>Address</b></label>
+                            <input type="text" placeholder="Enter Address" name="psw" required>
+
+                            <button type="submit" class="btn" onclick="message()">Submit</button>
+                            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        </form>
+                    </div>
+
+                    <script>
+                        function openForm() {
+                            document.getElementById("myForm").style.display = "block";
+                        }
+
+                        function closeForm() {
+                            document.getElementById("myForm").style.display = "none";
+                        }
+                        function message() {
+                            alert("Appointment booked successfully! date and time will update you soon by email");
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="images">
+            <div class="head">
+                <h1>You are in the Right Place <br> at the Right Time</h1>
+                Therefore do not be anxious about tomarrow,for tomarrow will be anxious for itself.<br>
+                Sufficient for the day is its own trouble.</p><br>
+                <a href="../login/Login.php"> <button
+                        class="btn">Login</button></a>
+
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="col-sm-12" id="black">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="text_main">
+                    <h1>
+                        <B>
+                            ABOUT US
+                        </B>
+                    </h1>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-12">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="col-sm-3">                        
+                            <h3>
+                                <a href="#Mission"><button class="Box_main">Mission</button></a>
+                            </h3>
+                    </div>
+                    <div class="col-sm-3">
+                            <h3>
+                                <a href="#Vision"><button class="Box_main">Vision</button></a>
+                            </h3>
+                        </button>
+                    </div>
+                    <div class="col-sm-3">
+                            <h3>
+                                <a href="#Our Values"><button class="Box_main">Our Values</button></a>
+                            </h3>
+                    </div>
+                    <div class="col-sm-3">                        
+                            <h3>
+                                <a href="#Approch"><button class="Box_main">Approch</button></a>
+                            </h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </section>
+    <section1 id="Mission">
+        <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="col-sm-8">
+                    <p>
+                    <h2>MISSION</h2>
+                    <hr>
+                    <div class="txt">
+                        The mission of People Care Hospital is to provide a responsive healing environment for patients
+                        and their families, and to improve the quality of life for all members of our community.We 
+                        believe that People Care Hospital, the nation's first hospital, has a responsibility to: Ensure
+                        access to superior quality integrated health care for our community and expand access for
+                        underserved populations within the community. Create a supportive team environment for
+                        patients, employees, and clinical staff. Foster learning and growth through comprehensive
+                        academic and educational relationships. Exhibit stewardship and creativity in the management
+                        of all available resources
+                    </div>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="image">
+                        <img src="D29.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </section1>
+    <section2 id="Vision">
+        <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="col-sm-4" style="text-align: left;">
+                    <div class="image">
+                        <img src="abu.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>
+                    <h2>VISION</h2>
+                    <hr>
+                    <div class="txt">
+                        Our vission is to be the hospital of choice for patients, physicians and employees in Central
+                        Massachusetts because of our preeminent patient care and teaching programs and to be the first choice in health care for our communities. To be a leader in providing quality,
+                        compassionate patient-centered care that seeks physical cures and comforts as well as peace of
+                        mind and peace of heart. To improve health in partnership with our communities and
+                        MaineHealth®.To be a prominent community member known for meeting the healthcare needs of the entire
+                        community through incomparable patient care and wellness programs.
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </section2>
+    <section3 id="Our Values">
+        <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="col-sm-8">
+                    <p>
+                    <h2>OUR VALUES</h2>
+                    <hr>
+                    <div class="txt">
+                        The patient always comes first.
+                        We are dedicated to patient care.
+                        We treat each person with respect and dignity.
+                        We are compassionate listeners. We hear the issues of our patients, respect them, and do everything in our 
+                        power to help.
+                        We provide patient-centered service. People who come to the People Care can expect polite, friendly helpful 
+                        staff members who relate to each person as an individual, recognizing their history, relationships, culture,
+                        and needs. We go the extra mile to meet their expectations.
+                        We keep ourselves well educated so that we can apply new developments in our fields. We use innovative approaches
+                        to health care and customer service.
+                    </div>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <div class="image">
+                        <img src="D1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </section3>
+    <section4 id="Approch">
+        <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="col-sm-4" style="text-align: left;">
+                    <div class="image">
+                        <img src="D23.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>
+                    <h2>APPROCH</h2>
+                    <hr>
+                    <div class="txt">
+                        We care for the whole person, see the complexity of each person’s life, and believe that addressing a broad range of 
+                        human needs is the best way to improve a person’s health.
+                        We continuously examine the services we provide and what is needed in the community. We look for cracks in the health care system, fill those,
+                        and move to fill new ones. When other community resources develop to address those needs, we make intentional decisions to apply our resources
+                        differently.
+                        We believe that providing high quality, accessible health care is our reason for being. We seek to be a model for other community health centers.
+                        We use a team approach to providing health care, and involve the patient as part of our team.
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </section4>
+ 
+
+
+
+
+
+
+
+  
+</body>
+
+</html>

@@ -1,0 +1,270 @@
+.topnav 
+{
+    overflow: hidden;
+    background-color: none;
+    align-items: center;
+}
+.topnav a 
+{
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 25px;
+}
+
+.topnav a:hover {
+
+    color: rgb(163, 143, 29);
+	text-decoration: underline;
+}
+.topnav a.active
+ {
+    background-color: #4CAF50;
+    color: white;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 20px;
+}
+.people
+{
+	color: green;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 12px;
+}
+.active
+{
+	background-color: rgb(160, 182, 150);
+	margin-top: 21px;
+	font-size: 18px;
+  border-top: none;
+	border-left: none; 
+    border-right: grey solid 2px;
+    border-bottom: gray solid 3px;
+	padding:5px;
+	margin-left: 100px;
+}
+.active:hover
+{
+	background-color: rgb(68, 66, 66);
+    color: rgb(163, 143, 29);
+}
+.btn
+{
+	color: black;
+	font-size: 15px; 
+	margin-top: 3px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 30px;
+	width: 130px;
+}
+.btn:hover
+{
+	background-color: #56baed;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s6
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.head
+{
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+:root
+{
+    --primary: rgba(2, 4, 5, 0.20);
+    --secondary: rgba(2, 4, 5, 0.20);
+}
+#images
+{
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                url(D6.jpg);
+     background-color: white;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: cover;
+	padding-bottom: 10%;
+	padding-top: 10%;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position:fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+.text_main
+{
+    margin: 50px;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 25px;;
+}
+#black
+{
+    background:rgba(0,0,0,0.2) url('D5.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+}
+.Box_main
+{
+	padding: 20px 20px;
+	margin-right: 20px;
+	margin-top: 30px;
+    margin-bottom: 20px;
+	text-align: center;	
+	height: 150px;
+    width: 150px;
+    background:none;
+    border-radius: 50%;
+    
+}
+img
+{
+    border-radius: 25%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.col-sm-4
+{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+Button:hover
+{
+    background: rgba(0,0,0,0.7);   
+}
+a 
+{
+    color: white;
+}
+h2
+{
+    margin-bottom: 20px;
+    color: #9b6e26;
+    font-size: 35px;
+}
+p
+{
+    margin: 60px;
+    text-align: center;
+    color: white;
+}
+.txt
+{
+    color:black;
+}

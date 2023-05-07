@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="SignUP.css">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <div class="fadeIn first"></div>
+            <form action="../includes/signup.php" method="post">
+                <php include_once '../includes/signuphtml.php'; ?>
+                <label for="fname" type="text">Full Name:</label><br>
+                <input type="text" id="login" class="fadeIn second" name="name" placeholder="Enter your name">
+                <label for="fname">User Name:</label><br>
+                <input type="text" id="login" class="fadeIn second" name="uid" placeholder="Enter user name">
+                <label for="fname">Email:</label><br>
+                <input type="text" id="login" class="fadeIn second" name="email" placeholder="Enter your Email">
+                <label for="fname">Password:</label><br>
+                <input type="text" id="password" class="fadeIn third" name="pwd" placeholder="Enter Pwd">
+                <label for="fname">Conform Password:</label><br>
+                <input type="text" id="password" class="fadeIn third" name="pwdrepeat" placeholder="Conform Pwd">
+                <button type="submit" name="submit">Sign up</button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</htm
